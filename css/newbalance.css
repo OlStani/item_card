@@ -1,0 +1,130 @@
+body, .card, .busket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserat", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #E5E5E5;
+}
+
+.conteiner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.card {
+  height: 502px;
+  padding: 28px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.09);
+  border-radius: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  background: #CE3535;
+  top: 20px;
+  left: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 9px 20px;
+}
+
+.title-new {
+  background-color: #222222;
+  text-transform: uppercase;
+}
+
+.img-item {
+  background-color: #E5E5E5;
+}
+
+.img-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+}
+
+.card-link {
+  font-weight: 700;
+  font-size: 20px;
+  color: #222222;
+  text-decoration: none;
+  line-height: 165.9%;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.card-price {
+  width: 100%;
+  text-align: right;
+}
+
+.price-real {
+  font-weight: 500;
+  font-size: 20px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #5A5A5A;
+  margin: 20px 0 10px;
+  min-height: 24px;
+}
+
+.prise-discount {
+  font-weight: 900;
+  font-size: 24px;
+  color: #CE3535;
+}
+
+.busket {
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  color: #FFFFFF;
+  background: #E20000;
+  border-radius: 5px;
+  padding: 11px 0 12px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.busket:hover {
+  text-decoration: underline;
+}
+
+.img-busket {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=newbalance.css.map */
